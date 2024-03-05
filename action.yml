@@ -2,6 +2,10 @@ name: 'Jinja2 Syntax Check'
 description: 'Syntax Check for Jinja2 files, can specify file or directory'
 author: 'Constantinides C.'
 
+branding:
+  icon: 'alert-triangle'
+  color: 'orange'
+
 inputs:
   directory:
     description: 'Path of the folder/file containing .j2 files'
