@@ -1,8 +1,6 @@
 FROM python:3.11.6-slim
 
-COPY . /action
-
-WORKDIR /action
+COPY . .
 
 RUN pip install -r requirements.txt
 
